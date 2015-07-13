@@ -67,8 +67,7 @@ body {
 .mobile .header>.title {
   font-size: 16px;
   line-height: 24px;
-  margin-left: 15px;
-  margin-top: -10px;
+  margin-left: 15px
 }
 
 .mobile .header .pull-left {
@@ -1001,18 +1000,4 @@ html, body{
   height: 100vh;
   padding: 0;
   margin: 0 !important;
-}
-i.ion-ios-plus-empty{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%) !important;
-  line-height: 1;
-  display: block;
-}
-.sidebar .sidebar-overlay{
-  -webkit-transform: translatez(0);
-  -moz-transform: translatez(0);
-  -ms-transform: translatez(0);
-  -o-transform: translatez(0);
-  transform: translatez(0);
 }
