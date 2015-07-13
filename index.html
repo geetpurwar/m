@@ -1401,7 +1401,7 @@ var App = {
     window.parent.postMessage("resize", "*");
   }
   document.addEventListener('DOMContentLoaded', function () {
-    var fastClickButton = document.querySelector('a');
+    var fastClickButton = document.querySelector('a, .nav');
     new FastClick(fastClickButton);
   });
 </script>
