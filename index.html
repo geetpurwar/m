@@ -242,6 +242,7 @@
   height: 45px;
   color: #fff;
   font-size: 24px;
+  -webkit-touch-callout: none;
   -webkit-transform: none;
       -ms-transform: none;
           transform: none;
@@ -1066,7 +1067,7 @@ i.ion-ios-plus-empty{
   <div class="mobile clearfix">
     <div class="header">
       <span class="ion-ios-navicon pull-left"><i></i></span>
-      <span class="title">Home</span>
+      <span class="title">My Home</span>
       <span class="ion-ios-search pull-right"></span>
       <div class="search">
       <form method="post">
@@ -1401,7 +1402,7 @@ var App = {
     window.parent.postMessage("resize", "*");
   }
   document.addEventListener('DOMContentLoaded', function () {
-    var fastClickButton = document.querySelector('a, .nav');
+    var fastClickButton = document.querySelector('a, .nav, .nav-item');
     new FastClick(fastClickButton);
   });
 </script>
