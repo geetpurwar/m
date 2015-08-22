@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<title>Espresso	</title>
+</head>
+<body>
+
+<button class="js-push-button" disabled> 
+  Enable Push Messages  
+</button>
+
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {  
+    //navigator.serviceWorker.register('/sw.js').then(initialiseState);  
+    console.log('Exists');  
+  } else {  
+    console.log('Service workers aren\'t supported in this browser.');  
+  }  
+</script>
+
+</body>
+</html>
