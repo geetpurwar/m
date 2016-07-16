@@ -1,0 +1,21 @@
+{
+    "messages": [{
+        "title": "Notification from USPMaker",
+        "body": "It works even of website is closed",
+        "icon": "https://geetpurwar.com/rico.png",
+        "tag": "Some Tag with timestring",
+        "url": "https://uspmaker.staging.wpengine.com/about/"
+    }, {
+        "title": "Title of Message",
+        "body": "Body Text Goes Here",
+        "icon": "https://geetpurwar.com/icon.png",
+        "tag": "Some Tag with timestring",
+        "url": "http://google.com/"
+    }, {
+        "title": "Title of Message",
+        "body": "Body Text Goes Here",
+        "icon": "https://geetpurwar.com/icon.png",
+        "tag": "Some Tag with timestring",
+        "url": "http://yahoo.com/"
+    }]
+}
